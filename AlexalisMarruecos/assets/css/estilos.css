@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+  transition: 0.5;
+}
+.container {
+  display: table;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(175, 176, 187);
+}
+
+header {
+  display: table;
+  width: 100%;
+  height: 400px;
+  background-color: #ebdcfe;
+  background-image: url(../img/banner\ ciudad\ marruecos.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  padding: 10%;
+}
+
+footer {
+  display: table;
+  width: 100%;
+  height: 85px;
+  background-color: rgb(48, 50, 78);
+  color: white;
+  font-weight: 200;
+  text-align: center;
+  padding-top: 1%;
+}
+
+.cuerpo {
+  display: table;
+  width: 100%;
+}
+
+/* Imagenes */
+
+.imagen-bandera {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 200px;
+  float: right;
+  margin-left: 4%;
+  box-shadow: 0 10px 10px #404e5cf1;
+}
+
+.imagen-edadmedia {
+  display: block;
+  margin: auto;
+  width: 500px;
+  height: 300px;
+  box-shadow: 0 10px 10px #404e5cf1;
+}
+
+.imagen-playa {
+  display: block;
+  margin: auto;
+  width: 500px;
+  height: 300px;
+  box-shadow: 0 10px 10px #404e5cf1;
+}
+
+.imagen-cultura {
+  display: block;
+  margin: auto;
+  width: 500px;
+  height: 300px;
+  box-shadow: 0 10px 10px #404e5cf1;
+}
+
+.imagen-pueblo {
+  display: block;
+  margin: auto;
+  align-items: center;
+  width: 500px;
+  height: 300px;
+  box-shadow: 0 10px 10px #404e5cf1;
+}
+
+/* Barra de navegacion */
+
+nav {
+  background-color: #232b33;
+  color: white;
+}
+
+nav ol {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ol li {
+  list-style: none;
+}
+
+nav ol li a {
+  text-decoration: none;
+  display: block;
+  padding: 18px 18px;
+  color: white;
+  font-size: 20px;
+  font-family: "kanit";
+  transition: all ease 0.3s;
+}
+
+nav ol li a:hover {
+  border-bottom: 4px solid rgb(219, 13, 54);
+  transition: all ease 0.3s;
+}
+
+/* titulos y texto*/
+
+p {
+  width: 90%;
+  display: table;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: justify;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  font-size: 20px;
+  font-family: Open Sans;
+  font-weight: 400;
+}
+
+.cuerpo #cultura li {
+  font-family: "kanit";
+  margin: 0 auto;
+  /*padding-left: 20px;*/
+  font-size: 18px;
+  width: 80%;
+}
+
+.cuerpo #general h1 {
+  font-size: 80px;
+  padding-top: 2%;
+  text-align: center;
+  font-family: "kanit";
+}
+
+.cuerpo h2 {
+  font-size: 40px;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  font-family: "kanit";
+  text-align: center;
+}
+
+.cuerpo h3 {
+  margin-top: 1%;
+  margin-left: 5%;
+  font-family: "kanit";
+}
+
+hr {
+  border: 1.5px solid #ab2323;
+  text-align: center;
+  border: radius 80%;
+  margin: 5%;
+}
+
+.lista {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.lista li {
+  padding: 0px;
+}
